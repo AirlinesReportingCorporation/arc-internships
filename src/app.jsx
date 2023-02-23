@@ -9,7 +9,18 @@ import {
 export default function Internships() {
   return (
     <div className="internship-page">
-      <Stickynav title="ARC Internships" />
+      <Stickynav title="ARC Internships"
+      links={[
+        {
+          title: "Internship Benefits",
+          url: '#benefits'
+        },
+        {
+          title: "Internship Positions",
+          url: '#internships'
+        },
+      ]}
+      />
       <ProductJumbo
         cta="View Internships"
         backgroundImage="https://www2.arccorp.com/globalassets/imagemaker/hr/imagemaker-hr-26.jpg"
@@ -96,6 +107,7 @@ export default function Internships() {
         }
       />
       <ProductText
+        id="benefits"
         title="Internship Benefits"
         body={
           <div className="row justify-content-center">
@@ -157,6 +169,7 @@ export default function Internships() {
         }
       />
       <ProductText
+        id="internships"
         title="Available Internships"
         className="available-internships"
         body={
