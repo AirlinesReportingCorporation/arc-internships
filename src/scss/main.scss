@@ -61,6 +61,28 @@
       font-family: main.$arc-font-semibold;
   }
 
+  .available-internships {
+      background-color: #D4D4D4;
+  }
+  .position-inner {
+      border-bottom: 1px solid main.$tarmac;
+      margin-bottom: 30px;
+  }
+
+  a.position-link {
+      color: main.$black;
+      text-decoration: underline;
+
+      &:hover {
+          color: inherit;
+      }
+  }
+
+  .position-title {
+      font-family: main.$arc-font-bold;
+
+  }
+
 //   .internships-container {
 //     max-width: 1200px;
 //     width: 100%;
