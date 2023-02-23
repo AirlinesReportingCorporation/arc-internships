@@ -83,6 +83,28 @@
 
   }
 
+  .interview-title {
+    font-family: main.$arc-font-bold;
+    color: #2a2b2c;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+
+  .interview-step {
+    font-size: 18px;
+    line-height: 24px;
+    color: #2a2b2c;
+    font-family: main.$arc-font-regular;
+  }
+
+  .box-icon-container > .row {
+      justify-content: center;
+  }
+
+  .fas {
+      rotate: -90deg;
+  }
+
 //   .internships-container {
 //     max-width: 1200px;
 //     width: 100%;
