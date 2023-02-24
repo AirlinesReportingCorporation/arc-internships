@@ -87,7 +87,7 @@ export default function Internships() {
                       <span className="copy-focus-pay">$25</span>
                       <span className="copy-focus-text">/hour</span>
                       <div className="copy-uppercase">
-                        For Undergraduate Internships
+                        For Graduate Internships
                       </div>
                     </div>
                   </div>
