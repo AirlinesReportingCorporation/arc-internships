@@ -188,7 +188,7 @@ export default function Internships() {
                     </a>
                     <p>
                       Hiring Manager: Kevin Killebrew -{" "}
-                      <a href="" className="manager-link">
+                      <a href="https://www.linkedin.com/in/kevin-killebrew-09246551/" className="manager-link">
                         Linkedin
                       </a>
                     </p>
@@ -206,7 +206,7 @@ export default function Internships() {
                     </a>
                     <p>
                       Hiring Manager: Rich Licato -{" "}
-                      <a href="" className="manager-link">
+                      <a href="https://www.linkedin.com/in/richlicato/" className="manager-link">
                         Linkedin
                       </a>
                     </p>
@@ -224,7 +224,7 @@ export default function Internships() {
                     </a>
                     <p>
                       Hiring Manager: David Bowlin -{" "}
-                      <a href="" className="manager-link">
+                      <a href="https://www.linkedin.com/in/david-bowlin-cisa-cissp-itilv3-71a4a01/" className="manager-link">
                         Linkedin
                       </a>
                     </p>
@@ -242,7 +242,7 @@ export default function Internships() {
                     </a>
                     <p>
                       Hiring Manager: Kristen Ebersole -{" "}
-                      <a href="" className="manager-link">
+                      <a href="https://www.linkedin.com/in/kristenlebersole/" className="manager-link">
                         Linkedin
                       </a>
                     </p>
@@ -278,7 +278,7 @@ export default function Internships() {
                     </a>
                     <p>
                       Hiring Manager: Ben Kean -{" "}
-                      <a href="" className="manager-link">
+                      <a href="https://www.linkedin.com/in/ben-kean-b96b2555/" className="manager-link">
                         Linkedin
                       </a>
                     </p>
@@ -300,7 +300,7 @@ export default function Internships() {
                     </a>
                     <p>
                       Hiring Manager: Sujaya Raviprakash -{" "}
-                      <a href="" className="manager-link">
+                      <a href="https://www.linkedin.com/in/sujaya-raviprakash-b5829823/" className="manager-link">
                         Linkedin
                       </a>
                     </p>
@@ -318,7 +318,7 @@ export default function Internships() {
                     </a>
                     <p>
                       Hiring Manager: Paul Wilt -{" "}
-                      <a href="" className="manager-link">
+                      <a href="https://www.linkedin.com/in/pwilt/" className="manager-link">
                         Linkedin
                       </a>
                     </p>
@@ -336,7 +336,7 @@ export default function Internships() {
                     </a>
                     <p>
                       Hiring Manager: Mostafa Ghazi -{" "}
-                      <a href="" className="manager-link">
+                      <a href="https://www.linkedin.com/in/mostafaghazi/" className="manager-link">
                         Linkedin
                       </a>
                     </p>
@@ -354,7 +354,7 @@ export default function Internships() {
                     </a>
                     <p>
                       Hiring Manager: Manjit Bian -{" "}
-                      <a href="" className="manager-link">
+                      <a href="https://www.linkedin.com/in/manjit-b-b12164a/" className="manager-link">
                         Linkedin
                       </a>
                     </p>
@@ -370,7 +370,7 @@ export default function Internships() {
                     </a>
                     <p>
                       Hiring Manager: Chuck Wu -{" "}
-                      <a href="" className="manager-link">
+                      <a href="https://www.linkedin.com/in/chuck-wu-cpa-mba-252415/" className="manager-link">
                         Linkedin
                       </a>
                     </p>
@@ -388,7 +388,7 @@ export default function Internships() {
                     </a>
                     <p>
                       Hiring Manager: Nicole Chowning -{" "}
-                      <a href="" className="manager-link">
+                      <a href="https://www.linkedin.com/in/nicole-chowning/" className="manager-link">
                         Linkedin
                       </a>
                     </p>
