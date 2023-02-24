@@ -22,7 +22,7 @@ export default function Internships() {
       ]}
       />
       <ProductJumbo
-        cta="View Internships"
+      className="intern-jumbo"
         backgroundImage="https://www2.arccorp.com/globalassets/imagemaker/hr/imagemaker-hr-26.jpg"
         title="Internships for Students"
         subtitle={
@@ -33,6 +33,7 @@ export default function Internships() {
             <span>Get ready for an exciting journey!</span>
           </>
         }
+        ctaLink="#benefits"
       />
       <ProductText
         title="Summer Internship Details"
@@ -70,10 +71,9 @@ export default function Internships() {
             </div>
             <div className="col-lg-6">
               <div
-                className="row flex-column"
-                style={{ marginLeft: "auto", marginRight: "0px" }}
+                className="row"
               >
-                <div className="inner-column">
+                <div className="inner-column right-details-col">
                   <div className="internship-details-title">Salary</div>
                   <div className="row">
                     <div className="pay-copy internship-details-copy">
@@ -92,7 +92,7 @@ export default function Internships() {
                     </div>
                   </div>
                 </div>
-                <div className="inner-column">
+                <div className="inner-column right-details-col">
                   <div className="internship-details-title">Requirements</div>
                   <p className="internship-details-copy">
                     You must be a current student and will need to submit an
@@ -424,7 +424,7 @@ export default function Internships() {
                 </strong>
               </p>
               <p className="interview-step">
-                Contact Andrea in Talent Acquisition (abriceno@arccorp.com) or
+                Contact Andrea in Talent Acquisition (<a href="mailto:abriceno@arccorp.com">abriceno@arccorp.com</a>) or
                 the hiring manager listed for the specific role.
               </p>
             </div>
