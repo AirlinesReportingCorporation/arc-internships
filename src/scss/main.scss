@@ -75,6 +75,11 @@
   .position-inner {
       border-bottom: 1px solid main.$tarmac;
       margin-bottom: 30px;
+      max-width: 90%;
+  }
+
+  .left-position {
+      margin-left: auto;
   }
 
   a.position-link {
@@ -129,11 +134,18 @@
     .right-details-col{
         margin-left: 15px;
     }
+    .left-position {
+        margin-left: 0px;
+    }
+    
 
   }
   @media (max-width: 904px) {
     .pay-copy {
         margin-left: 15px;
+    }
+    .left-position {
+        margin-left: 0px;
     }
 
   }
@@ -144,6 +156,10 @@
     }
     .inner-column{ 
         margin-left: 0;
+    }
+
+    .left-position {
+        margin-left: 0px;
     }
 
   }

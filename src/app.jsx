@@ -132,6 +132,16 @@ export default function Internships() {
                     technology.
                   </p>
                 </div>
+                <div className="inner-column">
+                  <div className="internship-benefits-title">
+                    Social activities
+                  </div>
+                  <p className="internship-benefits-copy">
+                    Past activities have included sporting events, coffee
+                    meetups and more. Due to COVID-19, we are still determining
+                    this summer’s activities.
+                  </p>
+                </div>
               </div>
             </div>
             <div className="col-lg-6">
@@ -153,16 +163,6 @@ export default function Internships() {
                     Career development training and workshops
                   </div>
                 </div>
-                <div className="inner-column">
-                  <div className="internship-benefits-title">
-                    Social activities
-                  </div>
-                  <p className="internship-benefits-copy">
-                    Past activities have included sporting events, coffee
-                    meetups and more. Due to COVID-19, we are still determining
-                    this summer’s activities.
-                  </p>
-                </div>
               </div>
             </div>
           </div>
@@ -173,10 +173,8 @@ export default function Internships() {
         title="Available Internships"
         className="available-internships"
         body={
-          <div className="row" style={{ justifyContent: "space-between" }}>
-            <div className="col-lg-5">
-              <div className="row flex-direction-column">
-                <div className="col-12">
+              <div className="row">
+                <div className="col-lg-6">
                   <div className="position-inner">
                     <a
                       className="position-link"
@@ -194,7 +192,25 @@ export default function Internships() {
                     </p>
                   </div>
                 </div>
-                <div className="col-12">
+                <div className="col-lg-6">
+                  <div className="position-inner left-position">
+                    <a
+                      className="position-link"
+                      href="https://careers-arccorp.icims.com/jobs/2257/software-engineering-intern---summer-2023/job"
+                    >
+                      <div className="position-title">
+                        Software Engineering Intern (2)
+                      </div>
+                    </a>
+                    <p>
+                      Hiring Manager: Sujaya Raviprakash -{" "}
+                      <a href="https://www.linkedin.com/in/sujaya-raviprakash-b5829823/" className="manager-link">
+                        Linkedin
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-6">
                   <div className="position-inner">
                     <a
                       className="position-link"
@@ -212,7 +228,25 @@ export default function Internships() {
                     </p>
                   </div>
                 </div>
-                <div className="col-12">
+                <div className="col-lg-6">
+                  <div className="position-inner left-position">
+                    <a
+                      className="position-link"
+                      href="https://careers-arccorp.icims.com/jobs/2256/multimedia-and-graphic-design-intern--summer-2023/job"
+                    >
+                      <div className="position-title">
+                        Multimedia and Graphic Design Intern (1)
+                      </div>
+                    </a>
+                    <p>
+                      Hiring Manager: Paul Wilt -{" "}
+                      <a href="https://www.linkedin.com/in/pwilt/" className="manager-link">
+                        Linkedin
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-6">
                   <div className="position-inner">
                     <a
                       className="position-link"
@@ -230,7 +264,25 @@ export default function Internships() {
                     </p>
                   </div>
                 </div>
-                <div className="col-12">
+                <div className="col-lg-6">
+                  <div className="position-inner left-position">
+                    <a
+                      className="position-link"
+                      href="https://careers-arccorp.icims.com/jobs/2255/platform-engineering-intern---summer-2023/job"
+                    >
+                      <div className="position-title">
+                        Platform Engineering Intern (1)
+                      </div>
+                    </a>
+                    <p>
+                      Hiring Manager: Mostafa Ghazi -{" "}
+                      <a href="https://www.linkedin.com/in/mostafaghazi/" className="manager-link">
+                        Linkedin
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-6">
                   <div className="position-inner">
                     <a
                       className="position-link"
@@ -248,7 +300,25 @@ export default function Internships() {
                     </p>
                   </div>
                 </div>
-                <div className="col-12">
+                <div className="col-lg-6">
+                  <div className="position-inner left-position">
+                    <a
+                      className="position-link"
+                      href="https://careers-arccorp.icims.com/jobs/2254/accounting-intern--summer-2023/job"
+                    >
+                      <div className="position-title">
+                        Accounting Intern (1)
+                      </div>
+                    </a>
+                    <p>
+                      Hiring Manager: Manjit Bian -{" "}
+                      <a href="https://www.linkedin.com/in/manjit-b-b12164a/" className="manager-link">
+                        Linkedin
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-6">
                   <div className="position-inner">
                     <a
                       className="position-link"
@@ -266,7 +336,23 @@ export default function Internships() {
                     </p>
                   </div>
                 </div>
-                <div className="col-12">
+                <div className="col-lg-6">
+                  <div className="position-inner left-position">
+                    <a
+                      className="position-link"
+                      href="https://careers-arccorp.icims.com/jobs/2253/financial-planning-%26-analysis-%28fp%26a%29-intern--summer-2023/job"
+                    >
+                      <div className="position-title">FP&A Intern (1)</div>
+                    </a>
+                    <p>
+                      Hiring Manager: Chuck Wu -{" "}
+                      <a href="https://www.linkedin.com/in/chuck-wu-cpa-mba-252415/" className="manager-link">
+                        Linkedin
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-6">
                   <div className="position-inner">
                     <a
                       className="position-link"
@@ -284,100 +370,8 @@ export default function Internships() {
                     </p>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div className="col-lg-5">
-              <div className="row flex-direction-column">
-                <div className="col-12">
-                  <div className="position-inner">
-                    <a
-                      className="position-link"
-                      href="https://careers-arccorp.icims.com/jobs/2257/software-engineering-intern---summer-2023/job"
-                    >
-                      <div className="position-title">
-                        Software Engineering Intern (2)
-                      </div>
-                    </a>
-                    <p>
-                      Hiring Manager: Sujaya Raviprakash -{" "}
-                      <a href="https://www.linkedin.com/in/sujaya-raviprakash-b5829823/" className="manager-link">
-                        Linkedin
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <div className="col-12">
-                  <div className="position-inner">
-                    <a
-                      className="position-link"
-                      href="https://careers-arccorp.icims.com/jobs/2256/multimedia-and-graphic-design-intern--summer-2023/job"
-                    >
-                      <div className="position-title">
-                        Multimedia and Graphic Design Intern (1)
-                      </div>
-                    </a>
-                    <p>
-                      Hiring Manager: Paul Wilt -{" "}
-                      <a href="https://www.linkedin.com/in/pwilt/" className="manager-link">
-                        Linkedin
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <div className="col-12">
-                  <div className="position-inner">
-                    <a
-                      className="position-link"
-                      href="https://careers-arccorp.icims.com/jobs/2255/platform-engineering-intern---summer-2023/job"
-                    >
-                      <div className="position-title">
-                        Platform Engineering Intern (1)
-                      </div>
-                    </a>
-                    <p>
-                      Hiring Manager: Mostafa Ghazi -{" "}
-                      <a href="https://www.linkedin.com/in/mostafaghazi/" className="manager-link">
-                        Linkedin
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <div className="col-12">
-                  <div className="position-inner">
-                    <a
-                      className="position-link"
-                      href="https://careers-arccorp.icims.com/jobs/2254/accounting-intern--summer-2023/job"
-                    >
-                      <div className="position-title">
-                        Accounting Intern (1)
-                      </div>
-                    </a>
-                    <p>
-                      Hiring Manager: Manjit Bian -{" "}
-                      <a href="https://www.linkedin.com/in/manjit-b-b12164a/" className="manager-link">
-                        Linkedin
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <div className="col-12">
-                  <div className="position-inner">
-                    <a
-                      className="position-link"
-                      href="https://careers-arccorp.icims.com/jobs/2253/financial-planning-%26-analysis-%28fp%26a%29-intern--summer-2023/job"
-                    >
-                      <div className="position-title">FP&A Intern (1)</div>
-                    </a>
-                    <p>
-                      Hiring Manager: Chuck Wu -{" "}
-                      <a href="https://www.linkedin.com/in/chuck-wu-cpa-mba-252415/" className="manager-link">
-                        Linkedin
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <div className="col-12">
-                  <div className="position-inner">
+                <div className="col-lg-6">
+                  <div className="position-inner left-position">
                     <a
                       className="position-link"
                       href="https://careers-arccorp.icims.com/jobs/2252/salesforce-intern--summer-2023/job"
@@ -394,9 +388,7 @@ export default function Internships() {
                     </p>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
+              </div>        
         }
       />
 
@@ -431,12 +423,12 @@ export default function Internships() {
           </div>
         }
       />
-
       <ProductLinks
         prodLink={[
           {
             alt: "Learn more about our culture",
             cta: "Learn More",
+            copy: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             header: "Learn more about our culture",
             icon: "https://www2.arccorp.com/globalassets/development-resources/demo-images/users-icon.png",
             link: "https://www2.arccorp.com/about-us/careers/our-culture/",
@@ -444,6 +436,7 @@ export default function Internships() {
           {
             alt: "Explore full-time opportunities",
             header: "Explore full-time opportunities",
+            copy:" Nemo cum temporibus dicta, eum iure mollitia aspernatur inventore quasi voluptate in.",
             cta: "Learn More",
             icon: "https://www2.arccorp.com/globalassets/icons/money-icon-139x102.png",
             link: "https://careers-arccorp.icims.com/jobs/search",
