@@ -9,20 +9,21 @@ import {
 export default function Internships() {
   return (
     <div className="internship-page">
-      <Stickynav title="ARC Internships"
-      links={[
-        {
-          title: "Internship Benefits",
-          url: '#benefits'
-        },
-        {
-          title: "Internship Positions",
-          url: '#internships'
-        },
-      ]}
+      <Stickynav
+        title="ARC Internships"
+        links={[
+          {
+            title: "Internship Benefits",
+            url: "#benefits",
+          },
+          {
+            title: "Internship Positions",
+            url: "#internships",
+          },
+        ]}
       />
       <ProductJumbo
-      className="intern-jumbo"
+        className="intern-jumbo"
         backgroundImage="https://www2.arccorp.com/globalassets/imagemaker/hr/imagemaker-hr-26.jpg"
         title="Internships for Students"
         subtitle={
@@ -43,7 +44,7 @@ export default function Internships() {
         body={
           <div className="row justify-content-center">
             <div className="col-lg-6">
-              <div className="row flex-column">
+              <div className="row">
                 <div className="inner-column">
                   <div className="internship-details-title">Dates</div>
                   <div className="internship-details-copy">
@@ -70,9 +71,7 @@ export default function Internships() {
               </div>
             </div>
             <div className="col-lg-6">
-              <div
-                className="row"
-              >
+              <div className="row">
                 <div className="inner-column right-details-col">
                   <div className="internship-details-title">Salary</div>
                   <div className="row">
@@ -110,58 +109,60 @@ export default function Internships() {
         id="benefits"
         title="Internship Benefits"
         body={
-          <div className="row justify-content-center">
+          <div className="row">
             <div className="col-lg-6">
-              <div className="row flex-column">
-                <div className="inner-column">
-                  <div className="internship-benefits-title">
-                    Meaningful work
-                  </div>
-                  <div className="internship-benefits-copy">
-                    You will be an essential part of your ARC team and gain
-                    hands-on experience.
-                  </div>
-                </div>
-                <div className="inner-column">
-                  <div className="internship-benefits-title">
-                    Exposure to cutting-edge technology
-                  </div>
-                  <p className="internship-benefits-copy">
-                    ARC leads innovation in the travel industry, working closely
-                    with airlines, travel advisors and more on the next big
-                    technology.
-                  </p>
-                </div>
-                <div className="inner-column">
-                  <div className="internship-benefits-title">
-                    Social activities
-                  </div>
-                  <p className="internship-benefits-copy">
-                    Past activities have included sporting events, coffee
-                    meetups and more. Due to COVID-19, we are still determining
-                    this summer’s activities.
-                  </p>
+              <div className="inner-benefits">
+                <div className="internship-benefits-title">Meaningful work</div>
+                <div className="internship-benefits-copy" style={{marginBottom: "20px"}}>
+                  You will be an essential part of your ARC team and gain
+                  hands-on experience.
                 </div>
               </div>
             </div>
             <div className="col-lg-6">
-              <div
-                className="row flex-column"
-                style={{ marginLeft: "auto", marginRight: "0px" }}
-              >
-                <div className="inner-column">
-                  <div className="internship-benefits-title">
-                    Robust mentorship opportunities
-                  </div>
-                  <div className="internship-benefits-copy">
-                    You’ll work closely alongside your manager and connect with
-                    executives and other leaders.
-                  </div>
+              <div className="inner-benefits left-position">
+                <div className="internship-benefits-title">
+                  Career development training and workshops
                 </div>
-                <div className="inner-column">
-                  <div className="internship-benefits-title">
-                    Career development training and workshops
-                  </div>
+                <div className="internship-benefits-copy">
+                  Weekly workshops and professional development training
+                  opportunities scheduled throughout the summer.
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="inner-benefits">
+                <div className="internship-benefits-title">
+                  Exposure to cutting-edge technology
+                </div>
+                <p className="internship-benefits-copy">
+                  ARC leads innovation in the travel industry, working closely
+                  with airlines, travel advisors and more on the next big
+                  technology.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="inner-benefits left-position">
+                <div className="internship-benefits-title">
+                  Social activities
+                </div>
+                <p className="internship-benefits-copy">
+                  While interns will primarily work remotely, there will be
+                  opportunities to travel into our corporate office for
+                  in-person meetings and events including lunch with our leaders
+                  and after work social gatherings.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="inner-benefits">
+                <div className="internship-benefits-title">
+                  Robust mentorship opportunities
+                </div>
+                <div className="internship-benefits-copy">
+                  You’ll work closely alongside your manager and connect with
+                  executives and other leaders.
                 </div>
               </div>
             </div>
@@ -173,222 +174,144 @@ export default function Internships() {
         title="Available Internships"
         className="available-internships"
         body={
-              <div className="row">
-                <div className="col-lg-6">
-                  <div className="position-inner">
-                    <a
-                      className="position-link"
-                      href="https://careers-arccorp.icims.com/jobs/2264/data-engineering-intern---summer-2023/job"
-                    >
-                      <div className="position-title">
-                        Data Engineering Intern (2)
-                      </div>
-                    </a>
-                    <p>
-                      Hiring Manager: Kevin Killebrew -{" "}
-                      <a href="https://www.linkedin.com/in/kevin-killebrew-09246551/" className="manager-link">
-                        Linkedin
-                      </a>
-                    </p>
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="position-inner">
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2264/data-engineering-intern---summer-2023/job"
+                >
+                  <div className="position-title">
+                    Data Engineering Intern (2)
                   </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="position-inner left-position">
-                    <a
-                      className="position-link"
-                      href="https://careers-arccorp.icims.com/jobs/2257/software-engineering-intern---summer-2023/job"
-                    >
-                      <div className="position-title">
-                        Software Engineering Intern (2)
-                      </div>
-                    </a>
-                    <p>
-                      Hiring Manager: Sujaya Raviprakash -{" "}
-                      <a href="https://www.linkedin.com/in/sujaya-raviprakash-b5829823/" className="manager-link">
-                        Linkedin
-                      </a>
-                    </p>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="position-inner left-position">
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2257/software-engineering-intern---summer-2023/job"
+                >
+                  <div className="position-title">
+                    Software Engineering Intern (2)
                   </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="position-inner">
-                    <a
-                      className="position-link"
-                      href="https://careers-arccorp.icims.com/jobs/2263/information-security-intern--summer-2023/job"
-                    >
-                      <div className="position-title">
-                        Information Security Intern (1)
-                      </div>
-                    </a>
-                    <p>
-                      Hiring Manager: Rich Licato -{" "}
-                      <a href="https://www.linkedin.com/in/richlicato/" className="manager-link">
-                        Linkedin
-                      </a>
-                    </p>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="position-inner">
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2263/information-security-intern--summer-2023/job"
+                >
+                  <div className="position-title">
+                    Information Security Intern (1)
                   </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="position-inner left-position">
-                    <a
-                      className="position-link"
-                      href="https://careers-arccorp.icims.com/jobs/2256/multimedia-and-graphic-design-intern--summer-2023/job"
-                    >
-                      <div className="position-title">
-                        Multimedia and Graphic Design Intern (1)
-                      </div>
-                    </a>
-                    <p>
-                      Hiring Manager: Paul Wilt -{" "}
-                      <a href="https://www.linkedin.com/in/pwilt/" className="manager-link">
-                        Linkedin
-                      </a>
-                    </p>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="position-inner left-position">
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2256/multimedia-and-graphic-design-intern--summer-2023/job"
+                >
+                  <div className="position-title">
+                    Multimedia and Graphic Design Intern (1)
                   </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="position-inner">
-                    <a
-                      className="position-link"
-                      href="https://careers-arccorp.icims.com/jobs/2262/enterprise-risk-intern--summer-2023/job"
-                    >
-                      <div className="position-title">
-                        Enterprise Risk Intern (1)
-                      </div>
-                    </a>
-                    <p>
-                      Hiring Manager: David Bowlin -{" "}
-                      <a href="https://www.linkedin.com/in/david-bowlin-cisa-cissp-itilv3-71a4a01/" className="manager-link">
-                        Linkedin
-                      </a>
-                    </p>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="position-inner">
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2262/enterprise-risk-intern--summer-2023/job"
+                >
+                  <div className="position-title">
+                    Enterprise Risk Intern (1)
                   </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="position-inner left-position">
-                    <a
-                      className="position-link"
-                      href="https://careers-arccorp.icims.com/jobs/2255/platform-engineering-intern---summer-2023/job"
-                    >
-                      <div className="position-title">
-                        Platform Engineering Intern (1)
-                      </div>
-                    </a>
-                    <p>
-                      Hiring Manager: Mostafa Ghazi -{" "}
-                      <a href="https://www.linkedin.com/in/mostafaghazi/" className="manager-link">
-                        Linkedin
-                      </a>
-                    </p>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="position-inner left-position">
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2255/platform-engineering-intern---summer-2023/job"
+                >
+                  <div className="position-title">
+                    Platform Engineering Intern (1)
                   </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="position-inner">
-                    <a
-                      className="position-link"
-                      href="https://careers-arccorp.icims.com/jobs/2261/product-analyst-intern--summer-2023/job"
-                    >
-                      <div className="position-title">
-                        Product Analyst Intern (1)
-                      </div>
-                    </a>
-                    <p>
-                      Hiring Manager: Kristen Ebersole -{" "}
-                      <a href="https://www.linkedin.com/in/kristenlebersole/" className="manager-link">
-                        Linkedin
-                      </a>
-                    </p>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="position-inner">
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2261/product-analyst-intern--summer-2023/job"
+                >
+                  <div className="position-title">
+                    Product Analyst Intern (1)
                   </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="position-inner left-position">
-                    <a
-                      className="position-link"
-                      href="https://careers-arccorp.icims.com/jobs/2254/accounting-intern--summer-2023/job"
-                    >
-                      <div className="position-title">
-                        Accounting Intern (1)
-                      </div>
-                    </a>
-                    <p>
-                      Hiring Manager: Manjit Bian -{" "}
-                      <a href="https://www.linkedin.com/in/manjit-b-b12164a/" className="manager-link">
-                        Linkedin
-                      </a>
-                    </p>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="position-inner left-position">
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2254/accounting-intern--summer-2023/job"
+                >
+                  <div className="position-title">Accounting Intern (1)</div>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="position-inner">
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2260/software-quality-engineer-intern---summer-2023/job"
+                >
+                  <div className="position-title">
+                    Software Quality Engineer Intern (2)
                   </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="position-inner">
-                    <a
-                      className="position-link"
-                      href="https://careers-arccorp.icims.com/jobs/2260/software-quality-engineer-intern---summer-2023/job"
-                    >
-                      <div className="position-title">
-                        Software Quality Engineer Intern (2)
-                      </div>
-                    </a>
-                    <p>
-                      Hiring Manager: Brian Deters -{" "}
-                      <a href="" className="manager-link">
-                        Linkedin
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="position-inner left-position">
-                    <a
-                      className="position-link"
-                      href="https://careers-arccorp.icims.com/jobs/2253/financial-planning-%26-analysis-%28fp%26a%29-intern--summer-2023/job"
-                    >
-                      <div className="position-title">FP&A Intern (1)</div>
-                    </a>
-                    <p>
-                      Hiring Manager: Chuck Wu -{" "}
-                      <a href="https://www.linkedin.com/in/chuck-wu-cpa-mba-252415/" className="manager-link">
-                        Linkedin
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="position-inner">
-                    <a
-                      className="position-link"
-                      href="https://careers-arccorp.icims.com/jobs/2259/data-analyst-intern--summer-2023/job"
-                    >
-                      <div className="position-title">
-                        Data Analyst Intern (1)
-                      </div>
-                    </a>
-                    <p>
-                      Hiring Manager: Ben Kean -{" "}
-                      <a href="https://www.linkedin.com/in/ben-kean-b96b2555/" className="manager-link">
-                        Linkedin
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="position-inner left-position">
-                    <a
-                      className="position-link"
-                      href="https://careers-arccorp.icims.com/jobs/2252/salesforce-intern--summer-2023/job"
-                    >
-                      <div className="position-title">
-                        Salesforce Intern (1)
-                      </div>
-                    </a>
-                    <p>
-                      Hiring Manager: Nicole Chowning -{" "}
-                      <a href="https://www.linkedin.com/in/nicole-chowning/" className="manager-link">
-                        Linkedin
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>        
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="position-inner left-position">
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2253/financial-planning-%26-analysis-%28fp%26a%29-intern--summer-2023/job"
+                >
+                  <div className="position-title">FP&A Intern (1)</div>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="position-inner">
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2259/data-analyst-intern--summer-2023/job"
+                >
+                  <div className="position-title">Data Analyst Intern (1)</div>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="position-inner left-position">
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2252/salesforce-intern--summer-2023/job"
+                >
+                  <div className="position-title">Salesforce Intern (1)</div>
+                </a>
+              </div>
+            </div>
+          </div>
         }
       />
 
@@ -409,15 +332,16 @@ export default function Internships() {
                 Interviews with your hiring manager and other ARC colleagues
               </li>
             </div>
-            <div style={{paddingTop: '30px'}}>
+            <div style={{ paddingTop: "30px" }}>
               <p>
                 <strong className="interview-title">
                   For More Information
                 </strong>
               </p>
               <p className="interview-step">
-                Contact Andrea in Talent Acquisition (<a href="mailto:abriceno@arccorp.com">abriceno@arccorp.com</a>) or
-                the hiring manager listed for the specific role.
+                Contact Andrea in Talent Acquisition (
+                <a href="mailto:abriceno@arccorp.com">abriceno@arccorp.com</a>)
+                or the hiring manager listed for the specific role.
               </p>
             </div>
           </div>
@@ -436,7 +360,7 @@ export default function Internships() {
           {
             alt: "Explore full-time opportunities",
             header: "Explore full-time opportunities",
-            copy:" Nemo cum temporibus dicta, eum iure mollitia aspernatur inventore quasi voluptate in.",
+            copy: " Nemo cum temporibus dicta, eum iure mollitia aspernatur inventore quasi voluptate in.",
             cta: "Learn More",
             icon: "https://www2.arccorp.com/globalassets/icons/money-icon-139x102.png",
             link: "https://careers-arccorp.icims.com/jobs/search",

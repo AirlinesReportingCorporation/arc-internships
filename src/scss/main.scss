@@ -58,6 +58,10 @@
       text-transform: uppercase;
       max-width: 155px;
   }
+  .inner-benefits {
+      padding-bottom: 15px;
+      max-width: 90%;
+  }
 
   .internship-benefits-title{
       color: main.$arc-teal;
@@ -74,7 +78,8 @@
   }
   .position-inner {
       border-bottom: 1px solid main.$tarmac;
-      margin-bottom: 30px;
+      padding-bottom: 30px;
+      padding-top: 30px;
       max-width: 90%;
   }
 
