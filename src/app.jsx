@@ -73,7 +73,7 @@ export default function Internships() {
             <div className="col-lg-6">
               <div className="row">
                 <div className="inner-column right-details-col">
-                  <div className="internship-details-title">Salary</div>
+                  <div className="internship-details-title">Compensation</div>
                   <div className="row">
                     <div className="pay-copy internship-details-copy">
                       <span className="copy-focus-pay">$20</span>
@@ -150,7 +150,7 @@ export default function Internships() {
                 <p className="internship-benefits-copy">
                   While interns will primarily work remotely, there will be
                   opportunities to travel into our corporate office for
-                  in-person meetings and events including lunch with our leaders
+                  in-person meetings and events, including lunch with our leaders
                   and after work social gatherings.
                 </p>
               </div>
@@ -339,9 +339,8 @@ export default function Internships() {
                 </strong>
               </p>
               <p className="interview-step">
-                Contact Andrea in Talent Acquisition (
-                <a href="mailto:abriceno@arccorp.com">abriceno@arccorp.com</a>)
-                or the hiring manager listed for the specific role.
+                Contact our Talent Acquisition team (
+                <a href="mailto:jobs@arccorp.com">jobs@arccorp.com</a>).
               </p>
             </div>
           </div>
