@@ -24,7 +24,7 @@ export default function Internships() {
       />
       <ProductJumbo
         className="intern-jumbo"
-        backgroundImage="https://www2.arccorp.com/globalassets/imagemaker/hr/imagemaker-hr-26.jpg"
+        backgroundImage="https://www2.arccorp.com/globalassets/homepage/redesign/internship/jumbo.png"
         title="Internships for Students"
         subtitle={
           <>
@@ -110,7 +110,7 @@ export default function Internships() {
       <div
         id="benefits"
         class="bg-img-container lazy"
-        data-bg="https://www2.arccorp.com/globalassets/homepage/redesign/ndc/ndc-settlement.jpg"
+        data-bg="https://www2.arccorp.com/globalassets/homepage/redesign/internship/benefits.png"
       >
         <div class="callout-container callout-container-mt2">
           <div class="container">
@@ -137,7 +137,7 @@ export default function Internships() {
                 <div class="subcallout-card" style={{ height: "207px" }}>
                   <div class="d-flex align-items-center">
                     <img
-                      src="https://www2.arccorp.com/globalassets/homepage/redesign/ndc/ndc-settlement-1.png"
+                      src="https://www2.arccorp.com/globalassets/homepage/redesign/internship/meaningfulwork.png"
                       style={{ paddingTop: "5px", paddingBottom: "6px" }}
                       alt="Flexible credit card billing options"
                     />
@@ -155,7 +155,7 @@ export default function Internships() {
                 <div class="subcallout-card" style={{ height: "207px" }}>
                   <div class="d-flex align-items-center">
                     <img
-                      src="https://www2.arccorp.com/globalassets/homepage/redesign/ndc/ndc-settlement-2.png"
+                      src="https://www2.arccorp.com/globalassets/homepage/redesign/internship/training.png"
                       alt="Customizable transaction modifications"
                     />
                     <div class="subcallout-card-copy">
@@ -176,7 +176,7 @@ export default function Internships() {
                 <div class="subcallout-card" style={{ height: "207px" }}>
                   <div class="d-flex align-items-center">
                     <img
-                      src="https://www2.arccorp.com/globalassets/homepage/redesign/ndc/ndc-settlement-3.png"
+                      src="https://www2.arccorp.com/globalassets/homepage/redesign/internship/technology.png"
                       alt="Acceptance of SPRF (ARC) or RET (BSP) file formats"
                     />
                     <div class="subcallout-card-copy">
@@ -196,7 +196,7 @@ export default function Internships() {
                 <div class="subcallout-card" style={{ height: "207px" }}>
                   <div class="d-flex align-items-center">
                     <img
-                      src="https://www2.arccorp.com/globalassets/homepage/redesign/ndc/ndc-settlement-4.png"
+                      src="https://www2.arccorp.com/globalassets/homepage/redesign/internship/social.png"
                       alt="Ability to identify direct connect transactions in IAR and on airline outputs"
                     />
                     <div class="subcallout-card-copy">
@@ -217,7 +217,7 @@ export default function Internships() {
                 <div class="subcallout-card" style={{ height: "207px" }}>
                   <div class="d-flex align-items-center">
                     <img
-                      src="https://www2.arccorp.com/globalassets/homepage/redesign/ndc/ndc-settlement-5.png"
+                      src="https://www2.arccorp.com/globalassets/homepage/redesign/internship/mentorship.png"
                       alt="Flexible messaging schema options (NDC or proprietary)"
                     />
                     <div class="subcallout-card-copy">
@@ -390,7 +390,7 @@ export default function Internships() {
             <div
               className="arc-homepage-card lazy"
               data-bg={
-                "https://www2.arccorp.com/globalassets/homepage/redesign/march-update/our_data.jpg"
+                "https://www2.arccorp.com/globalassets/homepage/redesign/internship/resources.png"
               }
               style={{ marginTop: "90px" }}
             >
