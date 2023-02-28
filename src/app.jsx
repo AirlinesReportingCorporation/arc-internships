@@ -39,7 +39,7 @@ export default function Internships() {
       {/* Internship Details */}
       <ProductText
         title="Summer Internship Details"
-        className="bg-color-tarmac"
+        className="bg-color-tarmac intern-title"
         subtitle="Our summer internships are full-time opportunities with a commitment of 30-40 hours a week."
         titleClass="white"
         body={
@@ -116,7 +116,7 @@ export default function Internships() {
           <div class="container">
             <div class="row">
               <div class="col-lg-12">
-                <h2 class="product-header white">Internship Benefits</h2>
+                <h2 class="product-header white intern-title">Internship Benefits</h2>
               </div>
             </div>
           </div>
@@ -241,7 +241,7 @@ export default function Internships() {
       <ProductText
         id="internships"
         title="Available Internships"
-        className="available-internships"
+        className="available-internships intern-title"
         body={
           <div className="row">
             <div className="col-lg-6">

@@ -9,6 +9,13 @@
     display: flex;
     justify-content: start;
     text-align: left !important;
+    .product-header {
+        font-family: main.$arc-font-bold !important;
+    }
+  }
+
+ .product-header {
+    font-family: main.$arc-font-regular;
   }
 
   .product-callout-copy {
