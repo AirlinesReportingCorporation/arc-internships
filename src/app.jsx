@@ -384,37 +384,59 @@ export default function Internships() {
         }
       />
       {/* Resources */}
-      <ProductText
-        title="Resources"
-        body={
-          <div>
-            <div>
-              <p>
-                <strong className="interview-title">
-                  The interview process will include:
-                </strong>
-              </p>
-              <li className="interview-step">
-                A telephone screening with a recruiter from ARC
-              </li>
-              <li className="interview-step">
-                Interviews with your hiring manager and other ARC colleagues
-              </li>
-            </div>
-            <div style={{ paddingTop: "30px" }}>
-              <p>
-                <strong className="interview-title">
-                  For More Information
-                </strong>
-              </p>
-              <p className="interview-step">
-                Contact our Talent Acquisition team (
-                <a href="mailto:jobs@arccorp.com">jobs@arccorp.com</a>).
-              </p>
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <div
+              className="arc-homepage-card lazy"
+              data-bg={
+                "https://www2.arccorp.com/globalassets/homepage/redesign/march-update/our_data.jpg"
+              }
+              style={{ marginTop: "90px" }}
+            >
+              <div className="row align-items-center no-gutters">
+                <div
+                  className="col-lg-12"
+                  style={{ minHeight: "auto", height: "auto" }}
+                >
+                  <div className="arc-homepage-data d-flex flex-column">
+                    <div className="arc-homepage-data-title">Resources</div>
+                    <div>
+                      <div>
+                        <p>
+                          <strong className="interview-title">
+                            The interview process will include:
+                          </strong>
+                        </p>
+                        <li className="interview-step">
+                          A telephone screening with a recruiter from ARC
+                        </li>
+                        <li className="interview-step">
+                          Interviews with your hiring manager and other ARC
+                          colleagues
+                        </li>
+                      </div>
+                      <div style={{ paddingTop: "30px" }}>
+                        <p>
+                          <strong className="interview-title">
+                            For More Information
+                          </strong>
+                        </p>
+                        <p className="interview-step">
+                          Contact our Talent Acquisition team (
+                          <a href="mailto:jobs@arccorp.com">jobs@arccorp.com</a>
+                          ).
+                        </p>
+                      </div>
+                    </div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        }
-      />
+        </div>
+      </div>
       <ProductLinks
         prodLink={[
           {
