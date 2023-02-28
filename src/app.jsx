@@ -109,7 +109,7 @@ export default function Internships() {
       {/* Benefits */}
       <div
         id="benefits"
-        class="bg-img-container lazy"
+        class="bg-img-container lazy intern-title"
         data-bg="https://www2.arccorp.com/globalassets/homepage/redesign/internship/benefits.png"
       >
         <div class="callout-container callout-container-mt2">
