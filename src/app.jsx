@@ -13,11 +13,11 @@ export default function Internships() {
         title="ARC Internships"
         links={[
           {
-            title: "Internship Benefits",
+            title: "Benefits",
             url: "#benefits",
           },
           {
-            title: "Internship Positions",
+            title: "Positions",
             url: "#internships",
           },
         ]}
@@ -36,6 +36,7 @@ export default function Internships() {
         }
         ctaLink="#benefits"
       />
+      {/* Internship Details */}
       <ProductText
         title="Summer Internship Details"
         className="bg-color-tarmac"
@@ -105,6 +106,7 @@ export default function Internships() {
           </div>
         }
       />
+      {/* Benefits */}
       <ProductText
         id="benefits"
         title="Internship Benefits"
@@ -169,6 +171,7 @@ export default function Internships() {
           </div>
         }
       />
+      {/* Available Internships */}
       <ProductText
         id="internships"
         title="Available Internships"
@@ -314,7 +317,7 @@ export default function Internships() {
           </div>
         }
       />
-
+       {/* Resources */}
       <ProductText
         title="Resources"
         body={
@@ -351,7 +354,7 @@ export default function Internships() {
           {
             alt: "Learn more about our culture",
             cta: "Learn More",
-            copy: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+            copy: "At ARC, we believe work should be rewarding and meaningful. We collaborate, think big and connect around shared experiences.",
             header: "Learn more about our culture",
             icon: "https://www2.arccorp.com/globalassets/development-resources/demo-images/users-icon.png",
             link: "https://www2.arccorp.com/about-us/careers/our-culture/",
@@ -359,7 +362,7 @@ export default function Internships() {
           {
             alt: "Explore full-time opportunities",
             header: "Explore full-time opportunities",
-            copy: " Nemo cum temporibus dicta, eum iure mollitia aspernatur inventore quasi voluptate in.",
+            copy: "With career development opportunities, comprehensive benefits and flexible programs, we help our employees thrive — both at work and at home.",
             cta: "Learn More",
             icon: "https://www2.arccorp.com/globalassets/icons/money-icon-139x102.png",
             link: "https://careers-arccorp.icims.com/jobs/search",
