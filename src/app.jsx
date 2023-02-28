@@ -107,70 +107,136 @@ export default function Internships() {
         }
       />
       {/* Benefits */}
-      <ProductText
+      <div
         id="benefits"
-        title="Internship Benefits"
-        body={
-          <div className="row">
-            <div className="col-lg-6">
-              <div className="inner-benefits">
-                <div className="internship-benefits-title">Meaningful work</div>
-                <div className="internship-benefits-copy" style={{marginBottom: "20px"}}>
-                  You will be an essential part of your ARC team and gain
-                  hands-on experience.
+        class="bg-img-container lazy"
+        data-bg="https://www2.arccorp.com/globalassets/homepage/redesign/ndc/ndc-settlement.jpg"
+      >
+        <div class="callout-container callout-container-mt2">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <h2 class="product-header white">Internship Benefits</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="sub-callout-container"
+          style={{
+            paddingTop: "0",
+            paddingLeft: "0",
+            paddingRight: "0",
+            borderTop: "none",
+          }}
+        >
+          <div style={{ maxWidth: "815px" }}>
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <div class="subcallout-card" style={{ height: "207px" }}>
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="https://www2.arccorp.com/globalassets/homepage/redesign/ndc/ndc-settlement-1.png"
+                      style={{ paddingTop: "5px", paddingBottom: "6px" }}
+                      alt="Flexible credit card billing options"
+                    />
+                    <div class="subcallout-card-copy">
+                      <div style={{ color: "#189bb0" }}>Meaningful work</div>
+                      <div style={{ fontSize: "14px" }}>
+                        You will be an essential part of your ARC team and gain
+                        hands-on experience.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="subcallout-card" style={{ height: "207px" }}>
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="https://www2.arccorp.com/globalassets/homepage/redesign/ndc/ndc-settlement-2.png"
+                      alt="Customizable transaction modifications"
+                    />
+                    <div class="subcallout-card-copy">
+                      <div style={{ color: "#189bb0" }}>
+                        Career development training and workshops
+                      </div>
+                      <div style={{ fontSize: "14px" }}>
+                        Weekly workshops and professional development training
+                        opportunities scheduled throughout the summer.
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
-              <div className="inner-benefits left-position">
-                <div className="internship-benefits-title">
-                  Career development training and workshops
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <div class="subcallout-card" style={{ height: "207px" }}>
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="https://www2.arccorp.com/globalassets/homepage/redesign/ndc/ndc-settlement-3.png"
+                      alt="Acceptance of SPRF (ARC) or RET (BSP) file formats"
+                    />
+                    <div class="subcallout-card-copy">
+                      <div style={{ color: "#189bb0" }}>
+                        Exposure to cutting-edge technology
+                      </div>
+                      <div style={{ fontSize: "14px" }}>
+                        ARC leads innovation in the travel industry, working
+                        closely with airlines, travel advisors and more on the
+                        next big technology.
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className="internship-benefits-copy">
-                  Weekly workshops and professional development training
-                  opportunities scheduled throughout the summer.
+              </div>
+              <div class="col-lg-6">
+                <div class="subcallout-card" style={{ height: "207px" }}>
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="https://www2.arccorp.com/globalassets/homepage/redesign/ndc/ndc-settlement-4.png"
+                      alt="Ability to identify direct connect transactions in IAR and on airline outputs"
+                    />
+                    <div class="subcallout-card-copy">
+                      <div style={{ color: "#189bb0" }}>Social activities</div>
+                      <div style={{ fontSize: "14px" }}>
+                        While interns will primarily work remotely, there will
+                        be opportunities to travel into our corporate office for
+                        in-person meetings and events, including lunch with our
+                        leaders and after work social gatherings.
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
-              <div className="inner-benefits">
-                <div className="internship-benefits-title">
-                  Exposure to cutting-edge technology
-                </div>
-                <p className="internship-benefits-copy">
-                  ARC leads innovation in the travel industry, working closely
-                  with airlines, travel advisors and more on the next big
-                  technology.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="inner-benefits left-position">
-                <div className="internship-benefits-title">
-                  Social activities
-                </div>
-                <p className="internship-benefits-copy">
-                  While interns will primarily work remotely, there will be
-                  opportunities to travel into our corporate office for
-                  in-person meetings and events, including lunch with our leaders
-                  and after work social gatherings.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="inner-benefits">
-                <div className="internship-benefits-title">
-                  Robust mentorship opportunities
-                </div>
-                <div className="internship-benefits-copy">
-                  You’ll work closely alongside your manager and connect with
-                  executives and other leaders.
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <div class="subcallout-card" style={{ height: "207px" }}>
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="https://www2.arccorp.com/globalassets/homepage/redesign/ndc/ndc-settlement-5.png"
+                      alt="Flexible messaging schema options (NDC or proprietary)"
+                    />
+                    <div class="subcallout-card-copy">
+                      <div style={{ color: "#189bb0" }}>
+                        Robust mentorship opportunities
+                      </div>
+                      <div style={{ fontSize: "14px" }}>
+                        You’ll work closely alongside your manager and connect
+                        with executives and other leaders.
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        }
-      />
+        </div>
+      </div>
+
       {/* Available Internships */}
       <ProductText
         id="internships"
@@ -317,7 +383,7 @@ export default function Internships() {
           </div>
         }
       />
-       {/* Resources */}
+      {/* Resources */}
       <ProductText
         title="Resources"
         body={
