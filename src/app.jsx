@@ -444,15 +444,15 @@ export default function Internships() {
             cta: "Learn More",
             copy: "At ARC, we believe work should be rewarding and meaningful. We collaborate, think big and connect around shared experiences.",
             header: "Learn more about our culture",
-            icon: "https://www2.arccorp.com/globalassets/development-resources/demo-images/users-icon.png",
+            icon: "https://www2.arccorp.com/globalassets/homepage/redesign/internship/culture.png",
             link: "https://www2.arccorp.com/about-us/careers/our-culture/",
           },
           {
             alt: "Explore full-time opportunities",
             header: "Explore full-time opportunities",
-            copy: "With career development opportunities, comprehensive benefits and flexible programs, we help our employees thrive — both at work and at home.",
+            copy: "With career development opportunities and comprehensive benefits, we help our employees thrive — at home and at work.",
             cta: "Learn More",
-            icon: "https://www2.arccorp.com/globalassets/icons/money-icon-139x102.png",
+            icon: "https://www2.arccorp.com/globalassets/homepage/redesign/internship/opportunities.png",
             link: "https://careers-arccorp.icims.com/jobs/search",
           },
         ]}
