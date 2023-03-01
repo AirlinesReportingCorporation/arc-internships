@@ -438,6 +438,7 @@ export default function Internships() {
         </div>
       </div>
       <ProductLinks
+      className="internship-resources"
         prodLink={[
           {
             alt: "Learn more about our culture",

@@ -125,13 +125,18 @@
     font-family: main.$arc-font-regular;
   }
 
-  .box-icon-container > .row {
+  .internship-page > * .box-icon-container > .row {
       justify-content: center;
+      .col-lg-4 {
+        margin: 0 30px;
+      }
+      .box-icon-item > a > .fas {
+        rotate: -90deg;
+        font-size: 14px;
+    }
   }
 
-  .box-icon-item > a > .fas {
-      rotate: -90deg;
-  }
+  
 
   @media (max-width: 1259px) {
     .internship-details-copy {
