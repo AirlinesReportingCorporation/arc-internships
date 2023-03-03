@@ -268,7 +268,7 @@ export default function Internships() {
                 </a>
               </div>
             </div>
-            <div className="col-lg-6">
+            {/* <div className="col-lg-6">
               <div className="position-inner">
                 <a
                   className="position-link"
@@ -279,7 +279,7 @@ export default function Internships() {
                   </div>
                 </a>
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-6">
               <div className="position-inner left-position">
                 <a
