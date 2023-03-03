@@ -268,20 +268,8 @@ export default function Internships() {
                 </a>
               </div>
             </div>
-            {/* <div className="col-lg-6">
-              <div className="position-inner">
-                <a
-                  className="position-link"
-                  href="https://careers-arccorp.icims.com/jobs/2263/information-security-intern--summer-2023/job"
-                >
-                  <div className="position-title">
-                    Information Security Intern (1)
-                  </div>
-                </a>
-              </div>
-            </div> */}
             <div className="col-lg-6">
-              <div className="position-inner left-position">
+              <div className="position-inner">
                 <a
                   className="position-link"
                   href="https://careers-arccorp.icims.com/jobs/2256/multimedia-and-graphic-design-intern--summer-2023/job"
@@ -293,7 +281,7 @@ export default function Internships() {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="position-inner">
+              <div className="position-inner left-position">
                 <a
                   className="position-link"
                   href="https://careers-arccorp.icims.com/jobs/2262/enterprise-risk-intern--summer-2023/job"
@@ -305,7 +293,7 @@ export default function Internships() {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="position-inner left-position">
+              <div className="position-inner">
                 <a
                   className="position-link"
                   href="https://careers-arccorp.icims.com/jobs/2255/platform-engineering-intern---summer-2023/job"
@@ -317,7 +305,7 @@ export default function Internships() {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="position-inner">
+              <div className="position-inner left-position">
                 <a
                   className="position-link"
                   href="https://careers-arccorp.icims.com/jobs/2261/product-analyst-intern--summer-2023/job"
@@ -329,7 +317,7 @@ export default function Internships() {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="position-inner left-position">
+              <div className="position-inner">
                 <a
                   className="position-link"
                   href="https://careers-arccorp.icims.com/jobs/2254/accounting-intern--summer-2023/job"
@@ -339,7 +327,7 @@ export default function Internships() {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="position-inner">
+              <div className="position-inner left-position">
                 <a
                   className="position-link"
                   href="https://careers-arccorp.icims.com/jobs/2260/software-quality-engineer-intern---summer-2023/job"
@@ -351,7 +339,7 @@ export default function Internships() {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="position-inner left-position">
+              <div className="position-inner">
                 <a
                   className="position-link"
                   href="https://careers-arccorp.icims.com/jobs/2253/financial-planning-%26-analysis-%28fp%26a%29-intern--summer-2023/job"
@@ -361,7 +349,7 @@ export default function Internships() {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="position-inner">
+              <div className="position-inner left-position">
                 <a
                   className="position-link"
                   href="https://careers-arccorp.icims.com/jobs/2259/data-analyst-intern--summer-2023/job"
@@ -371,7 +359,7 @@ export default function Internships() {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="position-inner left-position">
+              <div className="position-inner">
                 <a
                   className="position-link"
                   href="https://careers-arccorp.icims.com/jobs/2252/salesforce-intern--summer-2023/job"
