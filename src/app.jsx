@@ -348,7 +348,7 @@ export default function Internships() {
                 </a>
               </div>
             </div>
-            <div className="col-lg-6">
+            {/* <div className="col-lg-6">
               <div className="position-inner left-position">
                 <a
                   className="position-link"
@@ -357,9 +357,9 @@ export default function Internships() {
                   <div className="position-title">Data Analyst Intern (1)</div>
                 </a>
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-6">
-              <div className="position-inner">
+              <div className="position-inner left-position">
                 <a
                   className="position-link"
                   href="https://careers-arccorp.icims.com/jobs/2252/salesforce-intern--summer-2023/job"
