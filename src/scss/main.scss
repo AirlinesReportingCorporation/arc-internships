@@ -38,6 +38,7 @@
       margin: auto 20px 15px;
   }
 
+
   .internship-details-title {
       color: main.$signalorange;
       font-family: main.$arc-font-bold;
@@ -68,6 +69,40 @@
       text-transform: uppercase;
       max-width: 155px;
   }
+
+
+  .arc-intern-benefits {
+    background-image: url("https://www2.arccorp.com/globalassets/homepage/redesign/internship/benefits.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .intern-benefits-title {
+    font-family: main.$arc-font-regular;
+  }
+
+  #benefits > * div.bg-section {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none !important;
+  }
+
+  .subcallout-card-copy {
+    text-align: left;
+  }
+
+  .dg-icon-img {
+    min-width: 36px;
+  }
+
+  .dg-icon-container {
+    width: 70%;
+  }
+
+  .ss-system-info-item {
+    height: 207px;
+  }
+
   .inner-benefits {
       padding-bottom: 15px;
       max-width: 90%;

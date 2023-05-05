@@ -4,6 +4,7 @@ import {
   ProductJumbo,
   ProductText,
   ProductLinks,
+  ProductIcons,
 } from "arccorp-vars";
 
 export default function Internships() {
@@ -107,40 +108,19 @@ export default function Internships() {
         }
       />
       {/* Benefits */}
-      <div
+      <ProductText
         id="benefits"
-        class="bg-img-container lazy intern-title"
-        data-bg="https://www2.arccorp.com/globalassets/homepage/redesign/internship/benefits.png"
-      >
-        <div class="callout-container callout-container-mt2">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <h2 class="product-header white intern-title">Internship Benefits</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="sub-callout-container"
-          style={{
-            paddingTop: "0",
-            paddingLeft: "0",
-            paddingRight: "0",
-            borderTop: "none",
-          }}
-        >
-          <div style={{ maxWidth: "815px" }}>
-            <div class="row align-items-center">
-              <div class="col-lg-6">
-                <div class="subcallout-card" style={{ height: "207px" }}>
-                  <div class="d-flex align-items-center">
-                    <img
-                      src="https://www2.arccorp.com/globalassets/homepage/redesign/internship/meaningfulwork.png"
-                      style={{ paddingTop: "5px", paddingBottom: "6px" }}
-                      alt="Flexible credit card billing options"
-                    />
+        title="Internship Benefits"
+        className="arc-intern-benefits"
+        titleClass="white intern-benefits-title"
+        body={
+          <ProductIcons
+            className="benefits-body"
+            prodIcons={[
+              {
+                alt: "Meaningful work",
+                copy: (
+                  <>
                     <div class="subcallout-card-copy">
                       <div style={{ color: "#189bb0" }}>Meaningful work</div>
                       <div style={{ fontSize: "14px" }}>
@@ -148,16 +128,15 @@ export default function Internships() {
                         hands-on experience.
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="subcallout-card" style={{ height: "207px" }}>
-                  <div class="d-flex align-items-center">
-                    <img
-                      src="https://www2.arccorp.com/globalassets/homepage/redesign/internship/training.png"
-                      alt="Customizable transaction modifications"
-                    />
+                  </>
+                ),
+                image:
+                  "https://www2.arccorp.com/globalassets/homepage/redesign/internship/meaningfulwork.png",
+              },
+              {
+                alt: "Meaningful work",
+                copy: (
+                  <>
                     <div class="subcallout-card-copy">
                       <div style={{ color: "#189bb0" }}>
                         Career development training and workshops
@@ -167,18 +146,15 @@ export default function Internships() {
                         opportunities scheduled throughout the summer.
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-lg-6">
-                <div class="subcallout-card" style={{ height: "207px" }}>
-                  <div class="d-flex align-items-center">
-                    <img
-                      src="https://www2.arccorp.com/globalassets/homepage/redesign/internship/technology.png"
-                      alt="Acceptance of SPRF (ARC) or RET (BSP) file formats"
-                    />
+                  </>
+                ),
+                image:
+                  "https://www2.arccorp.com/globalassets/homepage/redesign/internship/training.png",
+              },
+              {
+                alt: "Meaningful work",
+                copy: (
+                  <>
                     <div class="subcallout-card-copy">
                       <div style={{ color: "#189bb0" }}>
                         Exposure to cutting-edge technology
@@ -189,16 +165,15 @@ export default function Internships() {
                         next big technology.
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="subcallout-card" style={{ height: "207px" }}>
-                  <div class="d-flex align-items-center">
-                    <img
-                      src="https://www2.arccorp.com/globalassets/homepage/redesign/internship/social.png"
-                      alt="Ability to identify direct connect transactions in IAR and on airline outputs"
-                    />
+                  </>
+                ),
+                image:
+                  "https://www2.arccorp.com/globalassets/homepage/redesign/internship/technology.png",
+              },
+              {
+                alt: "Meaningful work",
+                copy: (
+                  <>
                     <div class="subcallout-card-copy">
                       <div style={{ color: "#189bb0" }}>Social activities</div>
                       <div style={{ fontSize: "14px" }}>
@@ -208,18 +183,15 @@ export default function Internships() {
                         leaders and after work social gatherings.
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-lg-6">
-                <div class="subcallout-card" style={{ height: "207px" }}>
-                  <div class="d-flex align-items-center">
-                    <img
-                      src="https://www2.arccorp.com/globalassets/homepage/redesign/internship/mentorship.png"
-                      alt="Flexible messaging schema options (NDC or proprietary)"
-                    />
+                  </>
+                ),
+                image:
+                  "https://www2.arccorp.com/globalassets/homepage/redesign/internship/social.png",
+              },
+              {
+                alt: "Meaningful work",
+                copy: (
+                  <>
                     <div class="subcallout-card-copy">
                       <div style={{ color: "#189bb0" }}>
                         Robust mentorship opportunities
@@ -229,13 +201,15 @@ export default function Internships() {
                         with executives and other leaders.
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+                  </>
+                ),
+                image:
+                  "https://www2.arccorp.com/globalassets/homepage/redesign/internship/mentorship.png",
+              },
+            ]}
+          />
+        }
+      />
 
       {/* Available Internships */}
       <ProductText
@@ -426,7 +400,7 @@ export default function Internships() {
         </div>
       </div>
       <ProductLinks
-      className="internship-resources"
+        className="internship-resources"
         prodLink={[
           {
             alt: "Learn more about our culture",
