@@ -238,7 +238,7 @@ export default function Internships() {
       </div>
 
       {/* Available Internships */}
-      <ProductText
+      {/* <ProductText
         id="internships"
         title="Available Internships"
         className="available-internships intern-title"
@@ -348,7 +348,7 @@ export default function Internships() {
                 </a>
               </div>
             </div>
-            {/* <div className="col-lg-6">
+            <div className="col-lg-6">
               <div className="position-inner left-position">
                 <a
                   className="position-link"
@@ -357,7 +357,7 @@ export default function Internships() {
                   <div className="position-title">Data Analyst Intern (1)</div>
                 </a>
               </div>
-            </div> */}
+            </div>
             <div className="col-lg-6">
               <div className="position-inner left-position">
                 <a
@@ -370,7 +370,7 @@ export default function Internships() {
             </div>
           </div>
         }
-      />
+      /> */}
       {/* Resources */}
       <div className="container">
         <div className="row">
