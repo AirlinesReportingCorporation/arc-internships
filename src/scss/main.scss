@@ -1,186 +1,228 @@
 @use "~arccorp-vars/src/scss/main.scss";
-  .internship-page {
-    max-width: 100vw;
-    width: 100%;
-  }
+.internship-page {
+  max-width: 100vw;
+  width: 100%;
+}
 
-  .intern-jumbo {
-    // box-shadow: inset 0 0 0 2000px rgb(42 43 44 / 90%);
-    display: flex;
-    justify-content: start;
-    text-align: left !important;
-    .product-header {
-        font-family: main.$arc-font-bold !important;
-    }
+.intern-jumbo {
+  // box-shadow: inset 0 0 0 2000px rgb(42 43 44 / 90%);
+  display: flex;
+  justify-content: start;
+  text-align: left !important;
+  .product-header {
+    font-family: main.$arc-font-bold !important;
   }
+}
 
-  .intern-title {
-    .product-header {
-        font-family: main.$arc-font-regular;
-      }
+.intern-title {
+  .product-header {
+    font-family: main.$arc-font-regular;
   }
- 
+}
 
-  .product-callout-copy {
-    padding-bottom: 30px;
-  }
-  
-  .inner-column {
-      margin: 15px 20px;
-  }
+.product-callout-copy {
+  padding-bottom: 30px;
+}
 
-  .right-details-col {
-      margin-left: 30px;
-      margin-right: 0;
-  }
+.inner-column {
+  margin: 15px 20px;
+}
 
-  .pay-copy {
-      margin: auto 20px 15px;
+.right-details-col {
+  margin-left: 30px;
+  margin-right: 0;
+}
+
+.pay-copy {
+  margin: auto 20px 15px;
+}
+
+.internship-details-title {
+  color: main.$signalorange;
+  font-family: main.$arc-font-bold;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.internship-details-copy {
+  color: main.$fog;
+  padding-right: 75px;
+}
+
+.intern-dates {
+  font-size: 25px;
+}
+
+.copy-focus-pay {
+  font-family: main.$arc-font-bold;
+  font-size: 25px;
+}
+
+.copy-focus-text {
+  font-family: main.$arc-font-semibold;
+  font-size: 20px;
+}
+
+.copy-uppercase {
+  text-transform: uppercase;
+  max-width: 155px;
+  font-size: 15px;
+}
+.inner-benefits {
+  padding-bottom: 15px;
+  max-width: 90%;
+}
+
+.internship-benefits-title {
+  color: main.$arc-teal;
+  font-family: main.$arc-font-bold;
+  font-size: 20px;
+}
+
+.internship-benefits-copy {
+  font-family: main.$arc-font-semibold;
+}
+
+.available-internships {
+  background-color: #d4d4d4;
+}
+.position-inner {
+  border-top: 1px solid main.$tarmac;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  max-width: 90%;
+  margin-top: 60px;
+}
+
+.left-position {
+  margin-left: auto;
+}
+
+a.position-link {
+  color: main.$black;
+  text-decoration: underline;
+
+  &:hover {
+    color: inherit;
+  }
+}
+
+.position-title {
+  font-family: main.$arc-font-semibold;
+  font-size: 22px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.interview-title {
+  font-family: main.$arc-font-bold;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+.internship-info {
+    padding-left: 180px;
+  .info-about-title,
+  .info-about-title-alt {
+    font-family: main.$arc-font-bold;
+    font-size: 30px;
+    padding-bottom: 15px;
   }
 
   .internship-details-title {
-      color: main.$signalorange;
-      font-family: main.$arc-font-bold;
-      text-transform: uppercase;
-      font-size: 25px;
+    margin-top: 20px;
   }
 
+  .info-copy {
+    font-family: main.$arc-font-regular;
+    font-size: 25px;
+  }
+
+  .info-link {
+    font-family: main.$arc-font-regular;
+    font-size: 20px !important;
+    &:hover {
+        cursor: pointer;
+    }
+    &::after {
+        color: main.$arc-teal;
+        font-family: "icomoon";
+        content: "\E909";
+        font-size: 0.675rem;
+        margin-left: 10px;
+    }
+  }
+
+  li {
+    padding-top: 15px;
+    font-size: 18px;
+  }
+}
+
+.callout-box {
+  border-radius: 10px;
+  margin-bottom: 60px;
+  .ctaBtn {
+    display: none;
+  }
+}
+
+.interview-step {
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  font-family: main.$arc-font-regular;
+}
+
+.internship-page > * .box-icon-container > .row {
+  justify-content: center;
+  .col-lg-4 {
+    margin: 0 30px;
+  }
+  .box-icon-item > a > .fas {
+    rotate: -90deg;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1259px) {
   .internship-details-copy {
-      color: main.$fog;
-      padding-right: 75px;
+    padding-right: 0;
   }
+}
 
-  .intern-dates {
-      font-size: 25px;
+@media (max-width: 990px) {
+  .internship-details-copy {
+    padding-right: 0;
   }
+  .pay-copy {
+    margin-left: 20px;
+  }
+  .right-details-col {
+    margin-left: 15px;
+  }
+  .left-position {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 904px) {
+  .pay-copy {
+    margin-left: 15px;
+  }
+  .left-position {
+    margin-left: 0px;
+  }
+}
 
-  .copy-focus-pay {
-      font-family: main.$arc-font-bold;
-      font-size: 25px;
+@media (max-width: 766px) {
+  .pay-copy {
+    margin-left: 5px;
   }
-
-  .copy-focus-text {
-      font-family: main.$arc-font-bold;
-      font-size: 20px;
-  }
-
-  .copy-uppercase {
-      text-transform: uppercase;
-      max-width: 155px;
-  }
-  .inner-benefits {
-      padding-bottom: 15px;
-      max-width: 90%;
-  }
-
-  .internship-benefits-title{
-      color: main.$arc-teal;
-      font-family: main.$arc-font-bold;
-      font-size: 20px;
-  }
-
-  .internship-benefits-copy {
-      font-family: main.$arc-font-semibold;
-  }
-
-  .available-internships {
-      background-color: #D4D4D4;
-  }
-  .position-inner {
-      border-bottom: 1px solid main.$tarmac;
-      padding-bottom: 30px;
-      padding-top: 30px;
-      max-width: 90%;
+  .inner-column {
+    margin-left: 0;
   }
 
   .left-position {
-      margin-left: auto;
+    margin-left: 0px;
   }
-
-  a.position-link {
-      color: main.$black;
-      text-decoration: underline;
-
-      &:hover {
-          color: inherit;
-      }
-  }
-
-  .position-title {
-      font-family: main.$arc-font-bold;
-
-  }
-
-  .interview-title {
-    font-family: main.$arc-font-bold;
-    color: white;
-    margin-bottom: 10px;
-    font-size: 22px;
-  }
-
-  .interview-step {
-    font-size: 18px;
-    line-height: 24px;
-    color: white;
-    font-family: main.$arc-font-regular;
-  }
-
-  .internship-page > * .box-icon-container > .row {
-      justify-content: center;
-      .col-lg-4 {
-        margin: 0 30px;
-      }
-      .box-icon-item > a > .fas {
-        rotate: -90deg;
-        font-size: 14px;
-    }
-  }
-
-  
-
-  @media (max-width: 1259px) {
-    .internship-details-copy {
-        padding-right: 0;
-    }
-  }
-
-  @media (max-width: 990px) {
-    .internship-details-copy {
-        padding-right: 0;
-    }
-    .pay-copy {
-        margin-left: 20px;
-    }
-    .right-details-col{
-        margin-left: 15px;
-    }
-    .left-position {
-        margin-left: 0px;
-    }
-    
-
-  }
-  @media (max-width: 904px) {
-    .pay-copy {
-        margin-left: 15px;
-    }
-    .left-position {
-        margin-left: 0px;
-    }
-
-  }
-
-  @media (max-width: 766px) {
-    .pay-copy {
-        margin-left: 5px;
-    }
-    .inner-column{ 
-        margin-left: 0;
-    }
-
-    .left-position {
-        margin-left: 0px;
-    }
-
-  }
-
+}
