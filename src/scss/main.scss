@@ -14,11 +14,10 @@
   }
 }
 
-.intern-title {
-  .product-header {
+.intern-title.product-header {
     font-family: main.$arc-font-regular;
   }
-}
+
 
 .product-callout-copy {
   padding-bottom: 30px;
@@ -107,7 +106,7 @@ a.position-link {
   }
 }
 
-.position-title {
+.position-title, .benefit-title {
   font-family: main.$arc-font-semibold;
   font-size: 22px;
   margin-top: 15px;
@@ -122,15 +121,18 @@ a.position-link {
 }
 .internship-info {
     padding-left: 180px;
-  .info-about-title,
-  .info-about-title-alt {
+  .info-about-title {
     font-family: main.$arc-font-bold;
     font-size: 30px;
     padding-bottom: 15px;
   }
 
+  .secondary-title {
+    padding-top: 15px;
+  }
+
   .internship-details-title {
-    margin-top: 20px;
+    margin-top: 2spx;
   }
 
   .info-copy {
@@ -139,8 +141,6 @@ a.position-link {
   }
 
   .info-link {
-    font-family: main.$arc-font-regular;
-    font-size: 20px !important;
     &:hover {
         cursor: pointer;
     }
@@ -155,10 +155,11 @@ a.position-link {
 
   li {
     padding-top: 15px;
-    font-size: 18px;
   }
 }
-
+p.benefit-copy {
+  font-size: 18px;
+}
 .callout-box {
   border-radius: 10px;
   margin-bottom: 60px;

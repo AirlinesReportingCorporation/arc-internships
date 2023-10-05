@@ -105,137 +105,60 @@ export default function Internships() {
         }
       />
       {/* Benefits */}
-      <div
-        id="benefits"
-        class="bg-img-container lazy intern-title"
-        data-bg="https://www2.arccorp.com/globalassets/homepage/redesign/internship/benefits.png"
-      >
-        <div class="callout-container callout-container-mt2">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <h2 class="product-header white intern-title">
-                  Internship Benefits
-                </h2>
+      <ProductText
+        title="Internship Benefits"
+        titleClass="intern-title"
+        body={
+          <>
+            <div className="row">
+              <div className="col-lg-6">
+                <div className="benefit-title">Meaningful work</div>
+                <p className="benefit-copy">
+                  You will be an essential part of your ARC team and gain
+                  hands-on experience.
+                </p>
+              </div>
+              <div className="col-lg-6">
+                <div className="benefit-title">
+                  Career development training and workshops
+                </div>
+                <p className="benefit-copy">
+                  Weekly workshops and professional development training
+                  opportunities scheduled throughout the summer.
+                </p>
+              </div>
+              <div className="col-lg-6">
+                <div className="benefit-title">
+                  Exposure to cutting-edge technology
+                </div>
+                <p className="benefit-copy">
+                  ARC leads innovation in the travel industry, working closely
+                  with airlines, travel advisors and more on the next big
+                  technology.
+                </p>
+              </div>
+              <div className="col-lg-6">
+                <div className="benefit-title">Social activities</div>
+                <p className="benefit-copy">
+                  While interns will primarily work remotely, there will be
+                  opportunities to travel into our corporate office for
+                  in-person meetings and events including lunch with our leaders
+                  and after work social gatherings.
+                </p>
+              </div>
+              <div className="col-lg-6">
+                <div className="benefit-title">
+                  Robust mentorship opportunities
+                </div>
+                <p className="benefit-copy">
+                  You’ll work closely alongside your manager and connect with
+                  executives and other leaders.
+                </p>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div
-          class="sub-callout-container"
-          style={{
-            paddingTop: "0",
-            paddingLeft: "0",
-            paddingRight: "0",
-            borderTop: "none",
-          }}
-        >
-          <div style={{ maxWidth: "815px" }}>
-            <div class="row align-items-center">
-              <div class="col-lg-6">
-                <div class="subcallout-card" style={{ height: "207px" }}>
-                  <div class="d-flex align-items-center">
-                    <img
-                      src="https://www2.arccorp.com/globalassets/homepage/redesign/internship/meaningfulwork.png"
-                      style={{ paddingTop: "5px", paddingBottom: "6px" }}
-                      alt="Flexible credit card billing options"
-                    />
-                    <div class="subcallout-card-copy">
-                      <div style={{ color: "#189bb0" }}>Meaningful work</div>
-                      <div style={{ fontSize: "14px" }}>
-                        You will be an essential part of your ARC team and gain
-                        hands-on experience.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="subcallout-card" style={{ height: "207px" }}>
-                  <div class="d-flex align-items-center">
-                    <img
-                      src="https://www2.arccorp.com/globalassets/homepage/redesign/internship/training.png"
-                      alt="Customizable transaction modifications"
-                    />
-                    <div class="subcallout-card-copy">
-                      <div style={{ color: "#189bb0" }}>
-                        Career development training and workshops
-                      </div>
-                      <div style={{ fontSize: "14px" }}>
-                        Weekly workshops and professional development training
-                        opportunities scheduled throughout the summer.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-lg-6">
-                <div class="subcallout-card" style={{ height: "207px" }}>
-                  <div class="d-flex align-items-center">
-                    <img
-                      src="https://www2.arccorp.com/globalassets/homepage/redesign/internship/technology.png"
-                      alt="Acceptance of SPRF (ARC) or RET (BSP) file formats"
-                    />
-                    <div class="subcallout-card-copy">
-                      <div style={{ color: "#189bb0" }}>
-                        Exposure to cutting-edge technology
-                      </div>
-                      <div style={{ fontSize: "14px" }}>
-                        ARC leads innovation in the travel industry, working
-                        closely with airlines, travel advisors and more on the
-                        next big technology.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="subcallout-card" style={{ height: "207px" }}>
-                  <div class="d-flex align-items-center">
-                    <img
-                      src="https://www2.arccorp.com/globalassets/homepage/redesign/internship/social.png"
-                      alt="Ability to identify direct connect transactions in IAR and on airline outputs"
-                    />
-                    <div class="subcallout-card-copy">
-                      <div style={{ color: "#189bb0" }}>Social activities</div>
-                      <div style={{ fontSize: "14px" }}>
-                        While interns will primarily work remotely, there will
-                        be opportunities to travel into our corporate office for
-                        in-person meetings and events, including lunch with our
-                        leaders and after work social gatherings.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-lg-6">
-                <div class="subcallout-card" style={{ height: "207px" }}>
-                  <div class="d-flex align-items-center">
-                    <img
-                      src="https://www2.arccorp.com/globalassets/homepage/redesign/internship/mentorship.png"
-                      alt="Flexible messaging schema options (NDC or proprietary)"
-                    />
-                    <div class="subcallout-card-copy">
-                      <div style={{ color: "#189bb0" }}>
-                        Robust mentorship opportunities
-                      </div>
-                      <div style={{ fontSize: "14px" }}>
-                        You’ll work closely alongside your manager and connect
-                        with executives and other leaders.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+          </>
+        }
+      />
 
       {/* Available Internships */}
       <ProductText
@@ -267,26 +190,48 @@ export default function Internships() {
           </div>
         }
       />
+      {/* Info */}
       <ProductText
-      className="internship-info"
+        className="internship-info"
         body={
           <>
             <div className="row ">
               <div className="col-lg-6">
                 <div className="info-about-title">Interview Process</div>
-                <div className="info-copy">The interview process will include:</div>
+                <div className="info-copy">
+                  The interview process will include:
+                </div>
                 <ul>
-                  <li><span className="list">A telephone screening with a recruiter from ARC</span></li>
-                  <li>Interviews with your hiring manager and other ARC colleagues</li>
+                  <li className="info-copy">
+                    A telephone screening with a recruiter from ARC
+                  </li>
+                  <li className="info-copy">
+                    Interviews with your hiring manager and other ARC colleagues
+                  </li>
                 </ul>
               </div>
               <div className="col-lg-6">
-              <div className="info-about-title">For More Information</div>
-                <div className="info-copy"><a href="mailto:jobs@arccorp.com">Contact</a> our Talent Acquisition team</div>
-                <div className="internship-details-title">Resources</div>
-                <a className="info-link" href="https://careers-arccorp.icims.com/jobs/search?hashed=-435595431&mobile=false&width=960&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240">Explore full-time opportunities</a>
-                <br/>
-                <a className="info-link" href="https://www2.arccorp.com/about-us/careers/our-culture/?utm_source=internship">Learn more about our culture</a>
+                <div className="info-about-title">For More Information</div>
+                <div className="info-copy">
+                  <a href="mailto:jobs@arccorp.com">Contact</a> our Talent
+                  Acquisition team
+                </div>
+                <div className="info-about-title secondary-title">
+                  Resources
+                </div>
+                <a
+                  className="info-copy info-link"
+                  href="https://careers-arccorp.icims.com/jobs/search?hashed=-435595431&mobile=false&width=960&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240"
+                >
+                  Explore full-time opportunities
+                </a>
+                <br />
+                <a
+                  className="info-copy info-link"
+                  href="https://www2.arccorp.com/about-us/careers/our-culture/?utm_source=internship"
+                >
+                  Learn more about our culture
+                </a>
               </div>
             </div>
           </>
