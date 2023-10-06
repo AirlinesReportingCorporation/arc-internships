@@ -107,6 +107,7 @@ export default function Internships() {
       {/* Benefits */}
       <ProductText
         title="Internship Benefits"
+        id="benefits"
         titleClass="intern-title"
         body={
           <>
