@@ -15,9 +15,8 @@
 }
 
 .intern-title.product-header {
-    font-family: main.$arc-font-regular;
-  }
-
+  font-family: main.$arc-font-regular;
+}
 
 .product-callout-copy {
   padding-bottom: 30px;
@@ -106,7 +105,8 @@ a.position-link {
   }
 }
 
-.position-title, .benefit-title {
+.position-title,
+.benefit-title {
   font-family: main.$arc-font-semibold;
   font-size: 22px;
   margin-top: 15px;
@@ -119,8 +119,12 @@ a.position-link {
   margin-bottom: 10px;
   font-size: 22px;
 }
+
 .internship-info {
-    padding-left: 180px;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
   .info-about-title {
     font-family: main.$arc-font-bold;
     font-size: 30px;
@@ -142,14 +146,14 @@ a.position-link {
 
   .info-link {
     &:hover {
-        cursor: pointer;
+      cursor: pointer;
     }
     &::after {
-        color: main.$arc-teal;
-        font-family: "icomoon";
-        content: "\E909";
-        font-size: 0.675rem;
-        margin-left: 10px;
+      color: main.$arc-teal;
+      font-family: "icomoon";
+      content: "\E909";
+      font-size: 0.675rem;
+      margin-left: 10px;
     }
   }
 
