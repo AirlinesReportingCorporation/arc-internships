@@ -239,12 +239,14 @@ export default function Internships() {
         }
       />
 
-      {/* About ARC */}
+      {/* About ARC */} 
       <ProductCallout
         className="internships-about"
         title="About ARC"
         subtitle="ARC accelerates the growth of global air travel by delivering forward-looking travel data, flexible distribution services and innovative industry solutions. We are a leading travel intelligence company that possesses the world’s largest, most comprehensive global airline ticket data, including more than 15 billion passenger flights representing 490 airlines
 and 230 countries and territories. Our technology, products and expertise strengthen economies and enrich lives by connecting stakeholders across the travel ecosystem."
+        cta="Our Story"
+        ctaLink="https://www2.arccorp.com/about-us/our-story/?utm_source=Internship"
       />
     </div>
   );
