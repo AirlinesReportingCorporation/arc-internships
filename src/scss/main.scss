@@ -213,7 +213,13 @@ p.benefit-copy {
   .right-details-col {
     margin-left: 15px;
   }
-  .left-position {
+
+  .top-position.right-position {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid main.$tarmac;
+  }
+  .right-position {
     margin-left: 0px;
   }
 }
@@ -221,7 +227,12 @@ p.benefit-copy {
   .pay-copy {
     margin-left: 15px;
   }
-  .left-position {
+  .top-position.right-position {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid main.$tarmac;
+  }
+  .right-position {
     margin-left: 0px;
   }
 }
@@ -233,8 +244,12 @@ p.benefit-copy {
   .inner-column {
     margin-left: 0;
   }
-
-  .left-position {
+  .top-position.right-position {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid main.$tarmac;
+  }
+  .right-position {
     margin-left: 0px;
   }
 }
