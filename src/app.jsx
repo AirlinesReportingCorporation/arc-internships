@@ -17,10 +17,10 @@ export default function Internships() {
             title: "Benefits",
             url: "#benefits",
           },
-          // {
-          //   title: "Positions",
-          //   url: "#internships",
-          //},
+          {
+            title: "Positions",
+            url: "#internships",
+          },
         ]}
       />
       <ProductJumbo
