@@ -164,28 +164,121 @@ export default function Internships() {
       {/* Available Internships */}
       <ProductText
         id="internships"
-        subtitle="Available interships will be posted Spring 2024, here are a list of departments that will have internships:"
+        title="Internship Positions"
+        titleClass="intern-title"
         className="available-internships intern-title"
         body={
           <div className="row">
-            <div className="col-lg-3">
-              <div className="position-inner">
-                <div className="position-title">Business Technology</div>
+            <div className="col-lg-6">
+              <div className="top-position">
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2340/counterparty-risk-intern--summer-2024/job"
+                >
+                  <div className="position-title">Counterparty Risk Intern</div>
+                </a>
               </div>
             </div>
-            <div className="col-lg-3">
-              <div className="position-inner">
-                <div className="position-title">Marketing</div>
+            <div className="col-lg-6">
+              <div className="top-position right-position">
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2346/data-platform-analyst-intern---summer-2024/job"
+                >
+                  <div className="position-title">
+                    Data Platform Analyst Intern
+                  </div>
+                </a>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-6">
               <div className="position-inner">
-                <div className="position-title">Finance and Accounting</div>
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2349/desktop-support-intern--summer-2024/job"
+                >
+                  <div className="position-title">Desktop Support Intern</div>
+                </a>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-6">
+              <div className="position-inner right-position">
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2344/devops-cloud-engineering-intern---summer-2024/job"
+                >
+                  <div className="position-title">
+                    DevOps Cloud Engineering Intern
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-6">
               <div className="position-inner">
-                <div className="position-title">Business Operations</div>
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2339/financial-services-intern--summer-2024/job"
+                >
+                  <div className="position-title">
+                    Financial Services Intern
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="position-inner right-position">
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2345/information-security-intern--summer-2024/job"
+                >
+                  <div className="position-title">
+                    Information Security Intern
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="position-inner">
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2338/internal-audit-intern--summer-2024/job"
+                >
+                  <div className="position-title">Internal Audit Intern</div>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="position-inner right-position">
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2341/platform-engineering-intern---summer-2024/job"
+                >
+                  <div className="position-title">
+                    Platform Engineering Intern
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="position-inner ">
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2342/scrum-master-intern---summer-2024/job"
+                >
+                  <div className="position-title">Scrum Master Intern</div>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="position-inner right-position">
+                <a
+                  className="position-link"
+                  href="https://careers-arccorp.icims.com/jobs/2343/software-engineering-intern---summer-2024/job"
+                >
+                  <div className="position-title">
+                    Software Engineering Intern
+                  </div>
+                </a>
               </div>
             </div>
           </div>
@@ -239,7 +332,7 @@ export default function Internships() {
         }
       />
 
-      {/* About ARC */} 
+      {/* About ARC */}
       <ProductCallout
         className="internships-about"
         title="About ARC"
