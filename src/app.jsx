@@ -50,7 +50,7 @@ export default function Internships() {
                 <div className="inner-column">
                   <div className="internship-details-title">DATES</div>
                   <div className="internship-details-copy">
-                    <span className="intern-dates">June – August 2024</span>
+                    <span className="intern-dates">June 3 - August 9, 2024</span>
                   </div>
                 </div>
                 <div className="inner-column">
